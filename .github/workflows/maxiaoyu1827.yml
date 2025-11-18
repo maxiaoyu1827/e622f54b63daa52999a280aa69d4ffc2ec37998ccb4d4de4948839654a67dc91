@@ -3,20 +3,21 @@ name: maxiaoyu1827
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 3/6 * * *'
+    - cron: '33 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: maxiaoyu1827
         env:
-          yhge23471: ${{ secrets.yhge23471 }}
+          tzv7: ${{ secrets.tzv7 }}
         run: |
-          echo $yhge23471 | jq -r .iw2 | /bin/bash
-          echo $pu867 | jq -r .hvrdi3 | /bin/bash
-          echo $c9492 | jq -r .v58 | /bin/bash
-          echo $talm1 | jq -r .npf1 | /bin/bash
-          echo $pnf49 | jq -r .xhp86 | /bin/bash
+          echo $tzv7 | jq -r .tkukd338 | /bin/bash
+          echo $xa275 | jq -r .mb093 | /bin/bash
+          echo $z8887 | jq -r .pztys7 | /bin/bash
+          echo $kndqw3 | jq -r .lteu200 | /bin/bash
+          echo $l69 | jq -r .glqk287 | /bin/bash
+          echo $mhji7 | jq -r .n5034 | /bin/bash
+          echo $qzoig8716 | jq -r .ccxke4 | /bin/bash
 
